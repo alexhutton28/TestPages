@@ -3,7 +3,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 16px;
     text-align: center;
-    color: #F1FCFC;
+    color: #f1fcfc;
 }
 
 h1 {
@@ -14,7 +14,6 @@ h1 {
 
 h2 {
     font-size: 40px;
-
     letter-spacing: 4px;
 }
 
@@ -23,7 +22,6 @@ hr {
     margin: 20px auto;
     border: none;
     border-top: 3px solid #234652;
-
 }
 
 .slider-container {
@@ -38,7 +36,7 @@ hr {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #F1FCFC;
+    background-color: #f1fcfc;
     cursor: pointer;
 }
 
@@ -63,13 +61,13 @@ hr {
 }
 
 .slider-labels span {
-    flex-basis: 50px;
+    flex-basis: 15px;
     text-align: center;
 }
 
 .slider-value {
     margin-top: 10px;
-    color: #F1FCFC;
+    color: #f1fcfc;
     font-size: 30px;
 }
 
@@ -86,7 +84,7 @@ hr {
     align-items: center;
     font-size: 35px;
     font-weight: bold;
-    margin-bottom: 10px;
+
 }
 
 .selected-letters {
@@ -99,12 +97,12 @@ hr {
 }
 
 .button-container {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .button-container button {
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 7px 15px;
+    font-size: 12px;
     font-weight: bold;
     color: #ffffff;
     background-color: #234652;
