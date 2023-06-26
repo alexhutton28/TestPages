@@ -12,6 +12,20 @@ h1 {
     letter-spacing: 4px;
 }
 
+h2 {
+    font-size: 40px;
+
+    letter-spacing: 4px;
+}
+
+hr {
+    width: 75%;
+    margin: 20px auto;
+    border: none;
+    border-top: 3px solid #234652;
+
+}
+
 .slider-container {
     width: 500px;
     margin: 0 auto;
@@ -56,4 +70,50 @@ h1 {
 .slider-value {
     margin-top: 10px;
     color: #F1FCFC;
+    font-size: 30px;
+}
+
+.slot-machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.slot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.selected-letters {
+    margin-top: 20px;
+}
+
+.selected-letters span {
+    padding: 5px 10px;
+    font-size: 30px;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #234652;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container button:hover {
+    background-color: #23527c;
 }
